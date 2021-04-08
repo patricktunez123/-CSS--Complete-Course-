@@ -1,0 +1,58 @@
+h2 {
+  color: aqua;
+}
+
+/* pseudoselectors
+
+    Syntax
+
+selector:pseudo-class {
+  property: value;
+}
+
+*/
+h1:hover {
+  color: green;
+  cursor: pointer;
+}
+ul li:only-child {
+  color: white;
+  background-color: yellow;
+}
+ol li:only-child {
+  color: red;
+  background-color: green;
+}
+
+li:last-child {
+  color: white;
+  background-color: black;
+}
+
+li:first-child {
+  color: blue;
+}
+li:nth-child(3) {
+  color: blueviolet;
+}
+a {
+  color: green;
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 900;
+}
+a:link {
+  text-underline-offset: 20px;
+  /* text-decoration: none; */
+}
+
+.list-one:hover {
+  color: white;
+  background-color: green;
+  cursor: pointer;
+}
+#list-two:hover {
+  cursor: pointer;
+  background-color: yellow;
+  color: black;
+}
