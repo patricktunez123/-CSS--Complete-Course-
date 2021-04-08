@@ -1,0 +1,40 @@
+/* Advanced selectors */
+
+/* every btn that follows the h1 directly */
+h1 + button {
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+}
+
+/* every btn that follows the h3 directly */
+/* uncomment to see the changes */
+
+/* h3 + button {
+  background-color: turquoise;
+  color: whitesmoke;
+  font-size: medium;
+} */
+
+/* every button that follows the h3 no matter what */
+h3 ~ button {
+  background-color: turquoise;
+  color: whitesmoke;
+  font-size: medium;
+}
+
+/* child */
+
+/* see avery li that follows the ul directly and
+upply the syles */
+
+ul > li {
+  color: red;
+}
+
+/* see every li in the ul no matter what and
+apply styles */
+
+/* ul li {
+  color: red;
+} */
