@@ -1,0 +1,49 @@
+body {
+  background-color: azure;
+}
+
+.my-div {
+  background: linear-gradient(to right, red, blue);
+  width: 500px;
+  height: 300px;
+  margin-bottom: 10px;
+}
+.my-div2 {
+  background: linear-gradient(to bottom, green, black);
+  width: 500px;
+  height: 300px;
+  margin-bottom: 10px;
+}
+.my-div3 {
+  background: linear-gradient(to top, cyan, yellow);
+  width: 500px;
+  height: 300px;
+  margin-bottom: 10px;
+}
+.my-div4 {
+  background: linear-gradient(to left, cyan, green);
+  width: 500px;
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+.my-div5 {
+  background: radial-gradient(green, red);
+  width: 500px;
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+.my-div6 {
+  background: radial-gradient(green 40%, red 60%);
+  width: 500px;
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+.my-div7 {
+  background: radial-gradient(circle, green 40%, red 60%);
+  width: 500px;
+  height: 300px;
+  margin-bottom: 10px;
+}
