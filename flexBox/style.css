@@ -1,0 +1,17 @@
+.container {
+  background: silver;
+  padding: 10px;
+  display: flex;
+  /* flex-direction: row-reverse; */
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
+}
+.container-item {
+  background: springgreen;
+  height: 70px;
+  width: 70px;
+  text-align: center;
+  line-height: 200%;
+  margin: 10px;
+}
